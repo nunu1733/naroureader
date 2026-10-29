@@ -16,7 +16,8 @@
 最新版は [Releases](https://github.com/nunu1733/naroureader/releases) から取得できます
 (「Latest」の付いた Release が最新の安定版です)。最新の安定 Release には Android APK と
 iOS IPA を両方とも添付します。片方の OS だけが更新された Release では、未更新側は
-検証済みの前回と同じファイルをそのまま同梱します。
+その配布セット向けに承認済みの検証済みファイルをそのまま同梱します
+(どの配布タグの成果物かは各 Release のノートに明記します)。
 
 ### Android (Android 8.0 以上)
 
