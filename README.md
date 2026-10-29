@@ -11,6 +11,14 @@
 
 このリポジトリは配布と案内のためのもので、ソースコードは含みません。
 
+## スクリーンショット
+
+| 読書画面 (本文抽出) | ランキング |
+| --- | --- |
+| ![読書画面](images/android-reader.png) | ![ランキング](images/android-ranking.png) |
+
+画像はいずれも Android 版のものです。
+
 ## ダウンロード
 
 最新版は [Releases](https://github.com/nunu1733/naroureader/releases) から取得できます
