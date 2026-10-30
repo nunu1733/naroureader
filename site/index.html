@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NarouReader — 小説家になろうの小説を iPhone と Android で読む</title>
+<meta name="description" content="小説家になろうの小説を読むための iOS / Android リーダーアプリ NarouReader の配布サイト。最新安定版の APK / IPA のダウンロードと、Obtainium、SideStore / AltStore での利用案内。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23146c2e'/%3E%3Ctext x='32' y='45' font-family='sans-serif' font-size='36' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>NarouReader</h1>
+    <p class="lead"><a href="https://syosetu.com/" target="_blank" rel="noopener">小説家になろう</a> の小説を、iPhone と Android で読むためのリーダーアプリです。</p>
+    <p class="dl-lead">最新の安定版は次のボタンから直接ダウンロードできます。安定版の Release には Android APK と iOS IPA を両方とも添付しています。</p>
+    <div class="dl-buttons">
+      <a class="dl dl-android" href="https://github.com/nunu1733/naroureader/releases/latest/download/NarouReader-Android.apk">Android 版をダウンロード <span class="dl-type">(APK)</span></a>
+      <a class="dl dl-ios" href="https://github.com/nunu1733/naroureader/releases/latest/download/NarouReader.ipa">iOS 版をダウンロード <span class="dl-type">(IPA)</span></a>
+    </div>
+    <p class="note">iOS 版はダウンロードしただけでは iPhone にインストールできません。SideStore または AltStore を使う必要があります。詳しくは下の「<a href="#ios">iOS (iOS 17.0 以上・iPhone)</a>」の節をご覧ください。</p>
+    <ul class="hero-links">
+      <li><a href="https://github.com/nunu1733/naroureader/releases/latest" target="_blank" rel="noopener">最新安定版の詳細</a></li>
+      <li><a href="https://github.com/nunu1733/naroureader/releases" target="_blank" rel="noopener">これまでの更新履歴</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section class="container">
+  <h2>主な機能</h2>
+  <ul class="features">
+    <li>本棚管理・読書位置 (しおり) の自動保存と復元・話ごとの既読管理</li>
+    <li>アプリ内リーダーでの本文表示 (フォントサイズ・行間・ダークモードなどの調整)</li>
+    <li>作品詳細・目次・検索・ランキング・他アプリからの共有受信</li>
+    <li>連載中の作品の更新チェック</li>
+    <li>バックアップ (JSON ファイルへの書き出しと読み込み)</li>
+    <li>Google アカウントでログインすると、iOS / Android 端末間で本棚・しおり・既読を同期</li>
+  </ul>
+</section>
+
+<section class="container">
+  <h2>スクリーンショット</h2>
+  <p>読書画面とランキングの画面です。画像はいずれも Android 版のものです。</p>
+  <div class="shots">
+    <figure>
+      <img src="images/android-reader.png" alt="作品の本文と、前話・次話への移動ボタンを表示した Android 版の読書画面" width="445" height="1000">
+      <figcaption>読書画面 (本文抽出)</figcaption>
+    </figure>
+    <figure>
+      <img src="images/android-ranking.png" alt="日間・週間・月間・四半期の期間を選び、順位とポイントつきで作品を並べた Android 版のランキング画面" width="445" height="1000">
+      <figcaption>ランキング</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="container">
+  <h2>インストール方法</h2>
+  <div class="os-grid">
+    <article class="os-card" id="android">
+      <h3>Android (Android 8.0 以上)</h3>
+      <p class="os-dl"><a class="dl dl-android dl-small" href="https://github.com/nunu1733/naroureader/releases/latest/download/NarouReader-Android.apk">Android 版をダウンロード <span class="dl-type">(APK)</span></a></p>
+      <ol>
+        <li>「Android 版をダウンロード」のボタンから APK をダウンロードします。</li>
+        <li>ダウンロードした APK を開くとインストールが始まります。「この提供元からのインストールを許可しますか」の確認が表示された場合は、表示内容を確認して許可すると、インストールが続行します。この許可はアプリの提供元ごとの設定であり、保護機能全体を無効化する必要はありません。</li>
+        <li>Google Play プロテクトが「未スキャンのアプリ」として確認を求める場合があります。スキャンを求められたら実行し、結果を確認してください。警告やブロックが残る場合は保護機能を無効化・回避せず、取得元と APK を確認し、解決しなければ <a href="https://github.com/nunu1733/naroureader/issues" target="_blank" rel="noopener">Issues</a> へ報告してください。表示・判定は端末や時点により異なる場合があります (スキャンを求めずに進む場合もあります)。</li>
+        <li>更新は自動では行われません。新しい APK をダウンロードして開くと、本棚・しおり・既読・設定を保持したまま上書き更新されます。アンインストールは更新の手順ではありません。アンインストールすると端末内のデータが失われるため、やむを得ず再インストールする場合は、先に設定の「バックアップ / リストア」の「エクスポート」でバックアップを端末外へ保存してください。バックアップは本棚・しおり・既読・タグ・NG 登録・保存フィルタが対象で、リーダー設定は含まれません。インポートフォントを使っている場合は、元のファイルを別途保管してください。</li>
+        <li>更新管理アプリ <a href="https://obtainium.imranr.dev/" target="_blank" rel="noopener">Obtainium</a> に <code>https://github.com/nunu1733/naroureader</code> を登録すると、新しい安定版の公開時に更新の案内を受け取れます (任意。Obtainium が APK を自動で追跡します)。片方の OS だけが更新された Release でも Android の更新案内が出る場合があります。APK のアプリバージョンが前回と同じ場合は、インストールし直す必要はありません。</li>
+      </ol>
+    </article>
+    <article class="os-card" id="ios">
+      <h3>iOS (iOS 17.0 以上・iPhone)</h3>
+      <p class="os-dl"><a class="dl dl-ios dl-small" href="https://github.com/nunu1733/naroureader/releases/latest/download/NarouReader.ipa">iOS 版をダウンロード <span class="dl-type">(IPA)</span></a></p>
+      <p>iOS へのインストールには SideStore または AltStore を使います。通常は Source 経由の利用を推奨します。</p>
+      <ol>
+        <li><a href="https://sidestore.io/" target="_blank" rel="noopener">SideStore</a> / <a href="https://altstore.io/" target="_blank" rel="noopener">AltStore</a> をセットアップします。セットアップ方法は各公式サイトを参照してください。</li>
+        <li>Source <code>https://altstore.xnunux.com/source.json</code> を追加すると、NarouReader のインストールと更新ができます。</li>
+        <li>「iOS 版をダウンロード」のボタンから IPA を直接ダウンロードすることもできますが、ダウンロードするだけでは iPhone にインストールできません。署名してインストールする環境 (SideStore / AltStore など) が別途必要です。</li>
+      </ol>
+    </article>
+  </div>
+</section>
+
+<section class="container">
+  <h2>同期について</h2>
+  <ul>
+    <li>アプリ内で Google アカウントにログインすると、同じアカウントでログインした端末間で本棚・しおり・既読が同期されます。iOS / Android をまたいで同期できます。</li>
+    <li>同期には Google アカウント認証と Firebase のクラウドサービスを使用します。</li>
+    <li>同期の対象は本棚登録・しおり・既読です。タグ・NG 登録・保存フィルタ・リーダー設定などは端末ごとのローカルデータで、同期されません。</li>
+    <li>Google アカウントでログインしなくても、本棚・読書・検索は利用できます。</li>
+  </ul>
+</section>
+
+<section class="container">
+  <h2>このサイトについて</h2>
+  <p>このサイトは NarouReader の配布と案内のためのものです。配布物 (APK / IPA) は GitHub Releases から提供します。アプリのソースコードは公開していません。</p>
+</section>
+
+<section class="container">
+  <h2>不具合報告</h2>
+  <p>GitHub アカウントをお持ちの場合は、<a href="https://github.com/nunu1733/naroureader/issues" target="_blank" rel="noopener">Issues</a> に報告してください。</p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-brand">NarouReader 配布サイト</p>
+    <ul>
+      <li><a href="https://github.com/nunu1733/naroureader" target="_blank" rel="noopener">GitHub リポジトリ</a></li>
+      <li><a href="https://github.com/nunu1733/naroureader/releases" target="_blank" rel="noopener">Releases</a></li>
+      <li><a href="https://github.com/nunu1733/naroureader/issues" target="_blank" rel="noopener">Issues</a></li>
+      <li><a href="https://syosetu.com/" target="_blank" rel="noopener">小説家になろう</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
