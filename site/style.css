@@ -43,7 +43,7 @@ a {
   touch-action: manipulation;
 }
 
-a:active,
+a:not(.dl):active,
 details summary:active {
   opacity: 0.6;
 }
@@ -140,6 +140,13 @@ code {
   background: var(--blue);
 }
 
+.dl-outline {
+  background: transparent;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  padding: 10px 20px;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .dl-android:hover {
     background: var(--green-dark);
@@ -147,6 +154,10 @@ code {
 
   .dl-ios:hover {
     background: var(--blue-dark);
+  }
+
+  .dl-outline:hover {
+    background: rgba(5, 80, 174, 0.08);
   }
 }
 
